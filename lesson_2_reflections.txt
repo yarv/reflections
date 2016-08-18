@@ -38,3 +38,11 @@ Merging two branches causes the changes from each
 branch tip to be combined into a single branch.
 The diagram is the simplest visual representation
 of what is going on.
+
+What are the pros and cons of Git's automatic merging
+vs. always doing merges manually?
+
+Git's automatic merging means you need to think less 
+about the details of combining changes from two authors
+or two different subprojects. However this means sometimes
+counting on git to know what to do.
