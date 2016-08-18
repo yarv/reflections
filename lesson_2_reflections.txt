@@ -14,3 +14,10 @@ The staging area is a subset of your working directory
 destined for the next commit. Its useful since you may
 only want to commit some of the files in your working
 directory.
+
+How can you use the staging area to make sure you have
+one commit per logical change?
+
+You can use the staging area along with git diff to
+ensure that all that is being committed is one logical
+change. 
