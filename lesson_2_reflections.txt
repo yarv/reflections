@@ -30,3 +30,11 @@ If you'd like to add a new feature to some program,
 or you would like to change an existing (working)
 feature, branches can help keep you organized and 
 maintain the integrity of the original code.
+
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+Merging two branches causes the changes from each
+branch tip to be combined into a single branch.
+The diagram is the simplest visual representation
+of what is going on.
