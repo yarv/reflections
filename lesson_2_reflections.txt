@@ -21,3 +21,12 @@ one commit per logical change?
 You can use the staging area along with git diff to
 ensure that all that is being committed is one logical
 change. 
+
+What are some situations where branches would be
+helpful in keeping your history organized? How 
+would branches help?
+
+If you'd like to add a new feature to some program,
+or you would like to change an existing (working)
+feature, branches can help keep you organized and 
+maintain the integrity of the original code.
