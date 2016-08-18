@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file
+help you see the bug that was introduced?
+
+It focused my attention to the lines which had been changed,
+thereby reducing the overall search time for the bug.
+
+How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+
+Having access to older versions of the same file allows you to
+look back and learn from previous mistakes, as well as easily 
+spot new ones.
+
+What do you think are the pros and cons of manually choosing when
+to create a commit like you do in Git, vs having versions
+automatically saved, like Google Docs does?
+
+The obvious pro is that you have ultimate control over size and 
+frequency. Your commits are tailored to your specific project. 
+The obvious con is that you are responsible for each commit and may 
+not be as dilligent about it. A version automatically saved guarantees 
+to give you a baseline resolution.
+
+Why do you think some version control systems, like Git, allow
+saving multiple files in one commit, while others, like Google Docs,
+treat each file separately?
+
+Git allows for saving multiple file changes, since together they 
+may be the components of a single logical change to a project. Google
+Docs, with its automatic saving of versions, could not easily support
+this type of version control.
+
+How can you use the commands git log and git diff to view the
+history of files?
+
+'git log' will show you the timeline of commits with each of their
+descriptive messages, while git diff will show the changes between 
+different commits. Best to use it on consecutive commits to see 
+immediate changes.
+
+How might using version control make you more confident to make
+changes that could break something?
+
+Knowing that you can revert back to a working commit is like 
+having a safety net. You can make changes boldly knowing that 
+all you need to do to return to a working state is to checkout
+an older commit.
+
+Now that you have your workspace set up, what do you want to
+try using git for?
+
+I'd like to use it firstly to properly manage all of my
+teaching documents.
