@@ -11,3 +11,16 @@ with your remote repository?
 
 Having changes automatically pulled may result in
 conflicts with your own local work.
+
+Describe the difference between forks, clones, and
+branches. When would you use one instead of another?
+
+Branches exist within a repository and keep a log of
+different commits, possibly from different users,
+most likely working on different features/resolving
+different bugs. They generally have a common ancestor.
+A clone of a repository is a copy of a repository,
+generally kept on a separate machine, connected
+via git remote. A fork is the same as a clone, but
+represents a copy of someone else's repository on
+GitHub.
