@@ -24,3 +24,10 @@ generally kept on a separate machine, connected
 via git remote. A fork is the same as a clone, but
 represents a copy of someone else's repository on
 GitHub.
+
+What is the benefit of having a copy of the last
+known state of the remote stored locally?
+
+Having as much as possible of the remote stored
+locally helps ensure that merging will create
+a minimal number of conflicts.
