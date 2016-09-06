@@ -44,3 +44,14 @@ Git repository. However it would be harder to control
 how versions are committed, and we ultimately wouldn't
 be in control of the version system.
 
+When would you want to make changes in a separate
+branch rather than directly in master? What benefits
+does each approach have?
+
+In general, one would want to make changes in a
+separate branch when collaborating so as not to
+accidentally ruin the integrity of master with bad
+changes. Also, updating master may result in out-of-sync
+repositories for other users. In contrast, if you are
+the only one working on a project, then updating master
+directly may be quicker and easier.
