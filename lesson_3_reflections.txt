@@ -31,3 +31,16 @@ known state of the remote stored locally?
 Having as much as possible of the remote stored
 locally helps ensure that merging will create
 a minimal number of conflicts.
+
+How would you collaborate without using Git or
+Github? What would be easier, and what would be 
+harder?
+
+I would use Google Drive along with the associated
+tools such as Spreadsheet and Docs to collaborate
+and share other files. It would be easier to restrict
+access to other people without setting up a private
+Git repository. However it would be harder to control
+how versions are committed, and we ultimately wouldn't
+be in control of the version system.
+
